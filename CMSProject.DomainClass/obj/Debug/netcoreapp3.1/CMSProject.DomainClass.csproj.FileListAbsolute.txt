@@ -1,0 +1,9 @@
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.deps.json
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\obj\Debug\netcoreapp3.1\CMSProject.DomainClass.csprojAssemblyReference.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\obj\Debug\netcoreapp3.1\CMSProject.DomainClass.csproj.CoreCompileInputs.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\obj\Debug\netcoreapp3.1\CMSProject.DomainClass.AssemblyInfoInputs.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\obj\Debug\netcoreapp3.1\CMSProject.DomainClass.AssemblyInfo.cs
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\obj\Debug\netcoreapp3.1\CMSProject.DomainClass.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DomainClass\obj\Debug\netcoreapp3.1\CMSProject.DomainClass.pdb

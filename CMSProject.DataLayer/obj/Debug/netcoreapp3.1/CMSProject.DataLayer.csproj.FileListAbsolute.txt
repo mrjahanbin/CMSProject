@@ -1,0 +1,15 @@
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.deps.json
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.csprojAssemblyReference.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.AssemblyInfoInputs.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.AssemblyInfo.cs
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.csproj.CopyComplete
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.runtimeconfig.json
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.runtimeconfig.dev.json
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.csproj.CoreCompileInputs.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.DataLayer\obj\Debug\netcoreapp3.1\CMSProject.DataLayer.genruntimeconfig.cache
