@@ -9,10 +9,10 @@ namespace CMSProject.Services.Repositores
     {
         List<PageGroup> GellAppPageGroup();
         PageGroup GetPageGroupById(int groupId);
-        int InsertPageGroup(PageGroup pageGroup);
+        void InsertPageGroup(PageGroup pageGroup);
         void UpdatePageGroup(PageGroup pageGroup);
         void DeletePageGroup(int GroupId);
         void DeletePageGroup(PageGroup pageGroup);
-
+        void Save();
     }
 }
