@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CMSProject.DataLayer.Context;
+using CMSProject.Services.Repositores;
+using CMSProject.Services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -36,6 +38,10 @@ namespace CMSProject.Web
 
             option.UseSqlServer(Configuration.GetConnectionString("CMSProjectDbContext"))
             );
+
+
+            services.AddTransient<IPageRepository, PageRepository>();
+            services.AddTransient<IPageGroupRepository, PageGroupRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +61,16 @@ namespace CMSProject.Web
                 //endpoints.MapHub<MyChatHub>();
                 //endpoints.MapGrpcService<MyCalculatorService>();
                 endpoints.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(name: "areas", pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
             });
+
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //      name: "areas",
+            //      template: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+            //    );
+            //});
         }
     }
 }

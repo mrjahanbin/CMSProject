@@ -6,3 +6,12 @@ D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netc
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netcoreapp3.1\CMSProject.Services.AssemblyInfo.cs
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netcoreapp3.1\CMSProject.Services.dll
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netcoreapp3.1\CMSProject.Services.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\bin\Debug\netcoreapp3.1\CMSProject.Services.runtimeconfig.json
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\bin\Debug\netcoreapp3.1\CMSProject.Services.runtimeconfig.dev.json
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.dll
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\bin\Debug\netcoreapp3.1\CMSProject.DataLayer.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\bin\Debug\netcoreapp3.1\CMSProject.DomainClass.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netcoreapp3.1\CMSProject.Services.csproj.CoreCompileInputs.cache
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netcoreapp3.1\CMSProject.Services.csproj.CopyComplete
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.Services\obj\Debug\netcoreapp3.1\CMSProject.Services.genruntimeconfig.cache
