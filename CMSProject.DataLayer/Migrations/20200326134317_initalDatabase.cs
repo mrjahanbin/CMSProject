@@ -34,7 +34,7 @@ namespace CMSProject.DataLayer.Migrations
                     PageTags = table.Column<string>(nullable: true),
                     ShowInSlider = table.Column<string>(nullable: true),
                     CreateDate = table.Column<DateTime>(nullable: false),
-                    GroupId = table.Column<int>(nullable: false),
+                    GroupID = table.Column<int>(nullable: false),
                     PageGroupGroupID = table.Column<int>(nullable: true)
                 },
                 constraints: table =>

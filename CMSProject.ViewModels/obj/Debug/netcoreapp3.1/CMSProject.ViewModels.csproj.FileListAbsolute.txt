@@ -1,9 +1,9 @@
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\bin\Debug\netcoreapp3.1\CMSProject.ViewModels.deps.json
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\bin\Debug\netcoreapp3.1\CMSProject.ViewModels.dll
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\bin\Debug\netcoreapp3.1\CMSProject.ViewModels.pdb
+D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.csprojAssemblyReference.cache
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.csproj.CoreCompileInputs.cache
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.AssemblyInfoInputs.cache
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.AssemblyInfo.cs
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.dll
 D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.pdb
-D:\Projects\GitProjects\CMSProject\CMSProject\CMSProject.ViewModels\obj\Debug\netcoreapp3.1\CMSProject.ViewModels.csprojAssemblyReference.cache

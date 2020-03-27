@@ -20,9 +20,9 @@ namespace CMSProject.Services.Services
             _db = db;
         }
 
-        public void DeletePageGroup(int GroupId)
+        public void DeletePageGroup(int GroupID)
         {
-            var group = GetPageGroupById(GroupId);
+            var group = GetPageGroupById(GroupID);
             DeletePageGroup(group);
         }
 
@@ -31,20 +31,25 @@ namespace CMSProject.Services.Services
             _db.Entry(pageGroup).State = EntityState.Deleted;
         }
 
-        public List<PageGroup> GellAppPageGroup()
+        public List<PageGroup> GetAllPageGroup()
         {
             return _db.PageGroups.ToList();
         }
 
-        public PageGroup GetPageGroupById(int groupId)
+        public PageGroup GetPageGroupById(int GroupID)
         {
             //NoOOOO Check Null or Empty Here
-            return _db.PageGroups.Find(groupId);
+            return _db.PageGroups.Find(GroupID);
         }
 
         public void InsertPageGroup(PageGroup pageGroup)
         {
             _db.PageGroups.Add(pageGroup);
+        }
+
+        public bool PageGroupExists(int GroupID)
+        {
+            return _db.PageGroups.Any(p => p.GroupID == GroupID);
         }
 
         public void Save()

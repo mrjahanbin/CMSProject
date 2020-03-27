@@ -7,12 +7,13 @@ namespace CMSProject.Services.Repositores
 {
     public interface IPageGroupRepository
     {
-        List<PageGroup> GellAppPageGroup();
-        PageGroup GetPageGroupById(int groupId);
+        List<PageGroup> GetAllPageGroup();
+        PageGroup GetPageGroupById(int GroupID);
         void InsertPageGroup(PageGroup pageGroup);
         void UpdatePageGroup(PageGroup pageGroup);
-        void DeletePageGroup(int GroupId);
+        void DeletePageGroup(int GroupID);
         void DeletePageGroup(PageGroup pageGroup);
+        bool PageGroupExists(int GroupID);
         void Save();
     }
 }

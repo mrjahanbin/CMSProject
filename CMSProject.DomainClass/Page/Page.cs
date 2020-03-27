@@ -18,10 +18,12 @@ namespace CMSProject.DomainClass.Page
         [Display(Name = "توضیح مختصر")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
         [MaxLength(400)]
+        [DataType(DataType.MultilineText)]
         public string ShortDescription { get; set; }
 
         [Display(Name = "متن کامل")]
         [Required(ErrorMessage = "لطفا {0} را وارد کنید")]
+        [DataType(DataType.MultilineText)]
         public string PageText { get; set; }
 
         [Display(Name = "بازدید")]
@@ -34,13 +36,13 @@ namespace CMSProject.DomainClass.Page
         public string PageTags { get; set; }
 
         [Display(Name = "نمایش در اسلایدر")]
-        public string ShowInSlider { get; set; }
+        public bool ShowInSlider { get; set; }
         [Display(Name = "تاریخ")]
         public DateTime CreateDate { get; set; }
 
         [Display(Name = "گروه خبر")]
 
-        public int GroupId { get; set; }
+        public int GroupID { get; set; }
 
 
 

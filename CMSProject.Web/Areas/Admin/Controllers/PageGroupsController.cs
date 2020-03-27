@@ -7,23 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CMSProject.DataLayer.Context;
 using CMSProject.DomainClass.PageGroup;
+using CMSProject.Services.Repositores;
 
 namespace CMSProject.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class PageGroupsController : Controller
     {
-        private readonly CMSProjectDbContext _context;
+        private readonly IPageGroupRepository _pageGroupRepository;
 
-        public PageGroupsController(CMSProjectDbContext context)
+        public PageGroupsController(IPageGroupRepository pageGroupRepository)
         {
-            _context = context;
+            _pageGroupRepository = pageGroupRepository;
         }
+
+
 
         // GET: Admin/PageGroups
         public async Task<IActionResult> Index()
         {
-            return View(await _context.PageGroups.ToListAsync());
+            return View(_pageGroupRepository.GetAllPageGroup());
         }
 
         // GET: Admin/PageGroups/Details/5
@@ -34,8 +37,7 @@ namespace CMSProject.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var pageGroup = await _context.PageGroups
-                .FirstOrDefaultAsync(m => m.GroupID == id);
+            var pageGroup = _pageGroupRepository.GetPageGroupById(id.Value);
             if (pageGroup == null)
             {
                 return NotFound();
@@ -59,8 +61,8 @@ namespace CMSProject.Web.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(pageGroup);
-                await _context.SaveChangesAsync();
+                _pageGroupRepository.InsertPageGroup(pageGroup);
+                _pageGroupRepository.Save();
                 return RedirectToAction(nameof(Index));
             }
             return View(pageGroup);
@@ -74,7 +76,7 @@ namespace CMSProject.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var pageGroup = await _context.PageGroups.FindAsync(id);
+            var pageGroup = _pageGroupRepository.GetPageGroupById(id.Value);
             if (pageGroup == null)
             {
                 return NotFound();
@@ -98,8 +100,8 @@ namespace CMSProject.Web.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(pageGroup);
-                    await _context.SaveChangesAsync();
+                    _pageGroupRepository.UpdatePageGroup(pageGroup);
+                    _pageGroupRepository.Save();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -125,8 +127,7 @@ namespace CMSProject.Web.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var pageGroup = await _context.PageGroups
-                .FirstOrDefaultAsync(m => m.GroupID == id);
+            var pageGroup = _pageGroupRepository.GetPageGroupById(id.Value);
             if (pageGroup == null)
             {
                 return NotFound();
@@ -140,15 +141,14 @@ namespace CMSProject.Web.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var pageGroup = await _context.PageGroups.FindAsync(id);
-            _context.PageGroups.Remove(pageGroup);
-            await _context.SaveChangesAsync();
+            _pageGroupRepository.DeletePageGroup(id);
+            _pageGroupRepository.Save();
             return RedirectToAction(nameof(Index));
         }
 
         private bool PageGroupExists(int id)
         {
-            return _context.PageGroups.Any(e => e.GroupID == id);
+            return _pageGroupRepository.PageGroupExists(id);
         }
     }
 }

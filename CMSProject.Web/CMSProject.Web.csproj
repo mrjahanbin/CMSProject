@@ -22,11 +22,13 @@
     <ProjectReference Include="..\CMSProject.DataLayer\CMSProject.DataLayer.csproj" />
     <ProjectReference Include="..\CMSProject.DomainClass\CMSProject.DomainClass.csproj" />
     <ProjectReference Include="..\CMSProject.Services\CMSProject.Services.csproj" />
+    <ProjectReference Include="..\CMSProjects.Utilities\CMSProjects.Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="wwwroot\pageImages\" />
   </ItemGroup>
 
 </Project>

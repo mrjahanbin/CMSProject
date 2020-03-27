@@ -45,6 +45,11 @@ namespace CMSProject.Services.Services
             _db.Pages.Add(page);
         }
 
+        public bool PageExists(int pageId)
+        {
+            return _db.Pages.Any(p => p.PageID == pageId);
+        }
+
         public void Save()
         {
             _db.SaveChanges();

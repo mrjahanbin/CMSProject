@@ -31,7 +31,7 @@ namespace CMSProject.DataLayer.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("GroupId")
+                    b.Property<int>("GroupID")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")

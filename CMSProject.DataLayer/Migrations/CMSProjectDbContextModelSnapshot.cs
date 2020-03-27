@@ -29,7 +29,7 @@ namespace CMSProject.DataLayer.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("GroupId")
+                    b.Property<int>("GroupID")
                         .HasColumnType("int");
 
                     b.Property<string>("ImageName")
@@ -58,8 +58,8 @@ namespace CMSProject.DataLayer.Migrations
                         .HasColumnType("nvarchar(400)")
                         .HasMaxLength(400);
 
-                    b.Property<string>("ShowInSlider")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<bool>("ShowInSlider")
+                        .HasColumnType("bit");
 
                     b.HasKey("PageID");
 

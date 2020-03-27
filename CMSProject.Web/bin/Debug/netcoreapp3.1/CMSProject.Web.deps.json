@@ -27,6 +27,7 @@
           "CMSProject.DataLayer": "1.0.0",
           "CMSProject.DomainClass": "1.0.0",
           "CMSProject.Services": "1.0.0",
+          "CMSProjects.Utilities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1",
@@ -2303,6 +2304,11 @@
         }
       },
       "CMSProject.DomainClass/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.3",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.1"
+        },
         "runtime": {
           "CMSProject.DomainClass.dll": {}
         },
@@ -2322,6 +2328,14 @@
         },
         "compile": {
           "CMSProject.Services.dll": {}
+        }
+      },
+      "CMSProjects.Utilities/1.0.0": {
+        "runtime": {
+          "CMSProjects.Utilities.dll": {}
+        },
+        "compile": {
+          "CMSProjects.Utilities.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5063,6 +5077,11 @@
       "sha512": ""
     },
     "CMSProject.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CMSProjects.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
